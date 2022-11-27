@@ -1,0 +1,17 @@
+{
+  "name": "Blogger",
+  "version": "0.0.0",
+  "description": "a developer static blog site.",
+  "main": "index.js",
+  "author": "xolee",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.29",
+    "vue": "^3.2.45"
+  },
+  "scripts": {
+    "blogs:dev": "vitepress build blogs && vitepress dev blogs",
+    "blogs:build": "vitepress build blogs",
+    "blogs:serve": "vitepress serve blogs"
+  }
+}

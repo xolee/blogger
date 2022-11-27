@@ -1,0 +1,9 @@
+
+/node_modules
+/.idea
+/.vagrant
+/.vscode
+.DS_Store
+.user.ini
+npm-debug.log
+yarn-error.log
